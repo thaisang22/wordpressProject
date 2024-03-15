@@ -1,0 +1,2 @@
+2023-11-07T17:23:53+00:00 CRITICAL Possible integer overflow in memory allocation (2 * 1337 + 32) in C:\xampp\htdocs\SHOPTIME\wordpress\wp-includes\class-wp-embed.php on line 450
+

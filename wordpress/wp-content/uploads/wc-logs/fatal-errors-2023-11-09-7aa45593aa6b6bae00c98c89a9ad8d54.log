@@ -1,0 +1,12 @@
+2023-11-09T14:37:17+00:00 CRITICAL Uncaught Error: Call to a member function get_date_created() on null in C:\xampp\htdocs\SHOPTIME\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\Notes\CustomizingProductCatalog.php:55
+Stack trace:
+#0 C:\xampp\htdocs\SHOPTIME\wordpress\wp-content\plugins\woocommerce\src\Admin\Notes\NoteTraits.php(83): Automattic\WooCommerce\Internal\Admin\Notes\CustomizingProductCatalog::get_note()
+#1 C:\xampp\htdocs\SHOPTIME\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\Events.php(205): Automattic\WooCommerce\Internal\Admin\Notes\CustomizingProductCatalog::possibly_add_note()
+#2 C:\xampp\htdocs\SHOPTIME\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\Events.php(145): Automattic\WooCommerce\Internal\Admin\Events->possibly_add_notes()
+#3 C:\xampp\htdocs\SHOPTIME\wordpress\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Internal\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\SHOPTIME\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\SHOPTIME\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\SHOPTIME\wordpress\wp-cron.php(191): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\SHOPTIME\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\Notes\CustomizingProductCatalog.php on line 55
+

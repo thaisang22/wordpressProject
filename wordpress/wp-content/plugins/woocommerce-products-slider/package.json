@@ -1,0 +1,34 @@
+{
+  "name": "woocommerce-products-slider",
+  "version": "1.0.0",
+  "description": "===  Product Slider for WooCommerce by PickPlugins ===\r \tContributors: PickPlugins\r \tDonate link: https://www.pickplugins.com/item/woocommerce-products-slider-for-wordpress/?ref=wordpress.org\r \tTags: product slider, woocommerce slider, carousel slider, product category slider, woo slider, carousel slider,  woocommerce product slider\r \tRequires at least: 3.8\r \tTested up to: 6.2\r \tStable tag: 1.13.45\r \tLicense: GPLv2 or later\r \tLicense URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "files": [
+    "assets",
+    "includes",
+    "languages",
+    "sample-data",
+    "src",
+    "templates",
+    "woocommerce-products-slider.php",
+    "index.php"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pickplugins/woocommerce-products-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pickplugins/woocommerce-products-slider/issues"
+  },
+  "homepage": "https://github.com/pickplugins/woocommerce-products-slider#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.11.0"
+  }
+}
